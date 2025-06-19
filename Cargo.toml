@@ -7,6 +7,7 @@ license = "BlueOak-1.0.0"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+chrono = "0.4.41"
 
 # Make dev profile fast but chonky boi files opt-level 0 is *slightly* faster,
 # barely but its also murder on cpu caches.
